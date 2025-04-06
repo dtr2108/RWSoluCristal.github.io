@@ -12,19 +12,44 @@ body{
   box-sizing: border-box;
  
 }
+#icon-conteiner{
+  z-index: 3000;
+  position: absolute;
+}
+
 #ws-icon{
-  position: sticky;
+  /* position: sticky; */
   display: flex;
+  margin: 3px
 
   
 }
 
+#ig-icon{
+  margin: 3px;
+  transition: 1.5s ease;
+}
 
 #ws-icon > img{
   width: 50px;
   height: 50px;
   margin: 0;
   padding: 0;
+  
+}
+
+#ig-icon > img{
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+#ig-icon > img:hover{
+  width: 55px;
+  height: 55px;
+  transition: all ease-in-out 0.5s;
+  transform : scale(1);
 }
 
 #ws-icon > img:hover{
